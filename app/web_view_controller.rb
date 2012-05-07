@@ -1,6 +1,6 @@
 class WebViewController < UIViewController
   def loadView
-    background = UIColor.redColor
+    background = UIColor.blackColor
     
     self.view = UIView.alloc.initWithFrame(UIScreen.mainScreen.applicationFrame)
     self.view.backgroundColor = background
